@@ -2,14 +2,26 @@ opengl-python
 =============
 
 This repository contains Python source code for various OpenGL
-tutorials available online. All examples use Python 3 and `pyglet
-<http://pyglet.org>`_; any tutorial specific dependencies are listed
-in the appropriate Readme files.
+tutorials/books available online. All examples use Python 3 and
+`pyglet <http://pyglet.org>`_. Other tutorial/book specific
+dependencies are listed in the appropriate folders.
 
-The following ports are available:
+For now, the following ports are available:
+
+- `Alexander Overvoorde <https://github.com/Overv>`_'s `Modern OpenGL
+  Guide <https://open.gl/>`_.
 
 - `Eddy Luten <https://github.com/EddyLuten>`_'s `OpenGLBook.com
   <http://openglbook.com/>`_.
+
+  
+Contributing
+------------
+
+- Use the "Issues" tab to report issues.
+
+- If you want to write compatibility code (for earlier OpenGL/Python
+  versions) put it in a separate folder.
 
 
 License
