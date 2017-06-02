@@ -1,0 +1,3 @@
+[submodule "Overvoorde-ModernOpenGLGuide/source"]
+	path = Overvoorde-ModernOpenGLGuide/source
+	url = https://github.com/Overv/Open.GL
