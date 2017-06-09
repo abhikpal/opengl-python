@@ -603,8 +603,20 @@ class Matrix3:
         M.j = self.j
         M.k = self.k
         return M
-
+    
     copy = __copy__
+
+    def __iter__(self):
+        yield self.a
+        yield self.b
+        yield self.c
+        yield self.e
+        yield self.f
+        yield self.g
+        yield self.i
+        yield self.j
+        yield self.k
+
     def __repr__(self):
         return ('Matrix3([% 8.2f % 8.2f % 8.2f\n'  \
                 '         % 8.2f % 8.2f % 8.2f\n'  \
@@ -818,6 +830,24 @@ class Matrix4:
         return M
 
     copy = __copy__
+
+    def __iter__(self):
+        yield self.a
+        yield self.b
+        yield self.c
+        yield self.d
+        yield self.e 
+        yield self.f
+        yield self.g
+        yield self.h
+        yield self.i
+        yield self.j
+        yield self.k
+        yield self.l
+        yield self.m
+        yield self.n
+        yield self.o
+        yield self.p
 
     def __repr__(self):
         return ('Matrix4([% 8.2f % 8.2f % 8.2f % 8.2f\n'  \
